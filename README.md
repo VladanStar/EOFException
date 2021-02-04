@@ -1,0 +1,2 @@
+# EOFException
+Zaustavljanje čitanja ulazne datoteke se vrši izbacivanjem izuzetka EOFException kada se dođe do kraja datotetke. U prethodnom primeru, Objekat DataOutputStream je kreiran za datoteku temp.dat u linijama 6-7. Imena studenta i ocene zapisuju se u datoteku u linijama 10-15. Linija 18 zatvara izlazni tok- Objekat DataInputStream za istu datoteku u linijama 21-22- Imena studenata i njihove ocene se učitacaju nazad iz datoteke i prikazan je na konzoli u linijama 25-27.
